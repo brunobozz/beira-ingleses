@@ -7,6 +7,10 @@ import { PageHomeComponent } from './pages/page-home/page-home.component';
 import { CompHeaderComponent } from './components/comp-header/comp-header.component';
 import { CompFooterComponent } from './components/comp-footer/comp-footer.component';
 import { CompCarouselComponent } from './components/comp-carousel/comp-carousel.component';
+import { CompPageHeaderComponent } from './components/comp-page-header/comp-page-header.component';
+import { PageRegrasComponent } from './pages/page-regras/page-regras.component';
+import { CompFlexItensComponent } from './components/comp-flex-itens/comp-flex-itens.component';
+import { CompLocationComponent } from './components/comp-location/comp-location.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +18,11 @@ import { CompCarouselComponent } from './components/comp-carousel/comp-carousel.
     PageHomeComponent,
     CompHeaderComponent,
     CompFooterComponent,
-    CompCarouselComponent
+    CompCarouselComponent,
+    CompPageHeaderComponent,
+    PageRegrasComponent,
+    CompFlexItensComponent,
+    CompLocationComponent
   ],
   imports: [
     BrowserModule,

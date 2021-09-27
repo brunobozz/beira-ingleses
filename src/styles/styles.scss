@@ -1,5 +1,10 @@
+@import "./fonts";
 @import "./custom-bootstrap-theme";
 @import "./node_modules/bootstrap/scss/bootstrap";
+
+body {
+  font-family: "Raleway", sans-serif;
+}
 
 body::-webkit-scrollbar {
   width: 10px;
@@ -32,4 +37,8 @@ label:focus,
   outline: 0px !important;
   -webkit-appearance: none;
   box-shadow: none !important;
+}
+
+.fontAmalfiCoast {
+  font-family: amalfiCoast;
 }
