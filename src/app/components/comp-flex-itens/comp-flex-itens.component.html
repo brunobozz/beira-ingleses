@@ -1,1 +1,6 @@
-<p>comp-flex-itens works!</p>
+<section class="comp-flex-itens">
+  <div *ngFor="let item of itens" class="comp-flex-itens-item">
+    <i class="comp-flex-itens-item-icon fa" [ngClass]="item.icon"></i>
+    <span class="comp-flex-itens-item-text">{{ item.text }}</span>
+  </div>
+</section>

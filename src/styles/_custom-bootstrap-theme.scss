@@ -11,8 +11,13 @@ $theme-colors: (
 
 $custom-colors: (
   //cinzas
-  "preto": $preto,
-  "branco": $branco
+  "gray0": $gray0,
+  "gray3": $gray3,
+  "gray6": $gray6,
+  "gray9": $gray9,
+  "grayB": $grayB,
+  "grayD": $grayD,
+  "grayF": $grayF
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
