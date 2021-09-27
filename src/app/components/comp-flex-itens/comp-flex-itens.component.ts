@@ -8,12 +8,14 @@ import { Component, OnInit } from '@angular/core';
 export class CompFlexItensComponent implements OnInit {
   itens = [
     { icon: 'fa-map-marker', text: 'Pé na Areia' },
-    { icon: 'fa-wifi', text: 'Wi-Fi' },
+    { icon: 'fa-wifi', text: 'Wi-Fi 250mb' },
     { icon: 'fa-tv', text: 'Smart TV' },
     { icon: 'fa-snowflake-o', text: 'Ar Condicionado' },
-    { icon: 'fa-car', text: 'Garagem' },
+    { icon: 'fa-fire', text: 'Churrasqueira' },
+    { icon: 'fa-car', text: '1 Garagem' },
     { icon: 'fa-building', text: 'Elevador' },
     { icon: 'fa-users', text: 'Até 6 Pessoas' },
+    // { icon: 'fa-', text: '' },
   ];
   constructor() {}
 
