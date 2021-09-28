@@ -11,6 +11,9 @@ import { CompPageHeaderComponent } from './components/comp-page-header/comp-page
 import { PageRegrasComponent } from './pages/page-regras/page-regras.component';
 import { CompFlexItensComponent } from './components/comp-flex-itens/comp-flex-itens.component';
 import { CompLocationComponent } from './components/comp-location/comp-location.component';
+import { PageItensComponent } from './pages/page-itens/page-itens.component';
+import { CompFotosComponent } from './components/comp-fotos/comp-fotos.component';
+import { CompListItemsComponent } from './components/comp-list-items/comp-list-items.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { CompLocationComponent } from './components/comp-location/comp-location.
     CompPageHeaderComponent,
     PageRegrasComponent,
     CompFlexItensComponent,
-    CompLocationComponent
+    CompLocationComponent,
+    PageItensComponent,
+    CompFotosComponent,
+    CompListItemsComponent
   ],
   imports: [
     BrowserModule,

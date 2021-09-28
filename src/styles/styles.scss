@@ -1,9 +1,11 @@
+@import "./variables";
 @import "./fonts";
 @import "./custom-bootstrap-theme";
 @import "./node_modules/bootstrap/scss/bootstrap";
 
 body {
   font-family: "Raleway", sans-serif;
+  background-color: $light;
 }
 
 body::-webkit-scrollbar {
@@ -41,4 +43,9 @@ label:focus,
 
 .fontAmalfiCoast {
   font-family: amalfiCoast;
+}
+
+.page-title {
+  color: $primary;
+  border-bottom: 1px solid $primary;
 }

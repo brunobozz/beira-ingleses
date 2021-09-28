@@ -1,0 +1,12 @@
+<div class="mt-4">
+  <span class="fs-3">{{ itemsTitle }}</span>
+  <ul class="list-group">
+    <li
+      *ngFor="let item of itemsList"
+      class="list-group-item d-flex align-items-center"
+    >
+      <img src="../../../assets/images/icons/{{ item.img }}.svg" width="26px" />
+      <span class="ms-2">{{ item.text }}</span>
+    </li>
+  </ul>
+</div>

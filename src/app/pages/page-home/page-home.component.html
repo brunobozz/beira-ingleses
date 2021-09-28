@@ -1,28 +1,42 @@
 <app-comp-carousel></app-comp-carousel>
 
-<div class="container mt-4 mb-4 pt-4 text-center">
+<div class="container mt-4 pt-4">
+  <h1 class="page-title">Beira Ingleses</h1>
+  <p class="mt-4">
+    O <b>Beira Ingleses</b> é um apartamento disponível para locação de
+    temporada e fica situado na Beira da Praia dos Ingleses em Florianópolis SC.
+  </p>
   <p>
-    O <b>Beira Ingleses</b> é um apartamento em Florianópolis disponível para
-    locação de temporada e fica situado na Beira da Praia dos Ingleses.<br />
-    Possui 2 quartos e é deal para 4 pessoas com possíbilidade de acomodar bem
-    até 6.
+    Possui 2 quartos e é ideal para 4 pessoas, com possibilidade de acomodar até
+    6 pessoas muito bem.
   </p>
   <p>
     O imóvel se encontra próximo ao centrinho da praia perto de bares,
     restaurantes, mercado, farmácia e posto de gasolina.
   </p>
   <p>
-    Excelente para quem quer disfrutar da praia seja de férias ou a trabalho.
+    Excelente para quem quer desfrutar da praia seja nas férias ou a trabalho.
   </p>
-  <app-comp-flex-itens></app-comp-flex-itens>
+  <h4>Reservas:</h4>
+  <a
+    class="btn btn-airbnb text-grayF"
+    href="https://www.airbnb.com.br/rooms/52493723"
+    target="_blank"
+  >
+    <img src="../../../assets/images/icons/airbnb.svg" width="14px" />
+    <span> airbnb</span>
+  </a>
 </div>
 
-<div class="container p-4">
-  <h2>
-    <i class="fa fa-map-marker"></i>
-    <span> Localização</span>
-  </h2>
+<div class="container mt-4 pt-4">
+  <h1 class="page-title">Itens do Imóvel</h1>
+  <app-comp-list-items [itemsList]="itemsApto"></app-comp-list-items>
+
+  <a href="#" class="text-primary" routerLink="/itens">Ver todos itens</a>
+</div>
+
+<div class="container mt-4 mb-4 pt-4">
+  <h1 class="page-title">Localização</h1>
   <p>Estr. Dom João Becker, 1003</p>
+  <app-comp-location></app-comp-location>
 </div>
-
-<app-comp-location></app-comp-location>

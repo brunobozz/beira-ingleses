@@ -17,7 +17,9 @@ $custom-colors: (
   "gray9": $gray9,
   "grayB": $grayB,
   "grayD": $grayD,
-  "grayF": $grayF
+  "grayF": $grayF,
+  //others
+  "airbnb": $airbnb
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
