@@ -19,20 +19,29 @@
   </p>
   <h4>Reservas:</h4>
   <a
-    class="btn btn-airbnb text-grayF"
+    class="btn btn-airbnb text-grayF me-2"
     href="https://www.airbnb.com.br/rooms/52493723"
     target="_blank"
   >
     <img src="../../../assets/images/icons/airbnb.svg" width="14px" />
     <span> airbnb</span>
   </a>
+  <a
+    class="btn btn-whatsapp text-grayF"
+    href="https://api.whatsapp.com/send?phone=+5551985227083&text=Oi, gostaria de alguma informações sbre o Beira Ingleses"
+    target="_blank"
+  >
+    <i class="fa fa-whatsapp"></i>
+    <span> whatsapp</span>
+  </a>
 </div>
 
 <div class="container mt-4 pt-4">
   <h1 class="page-title">Itens do Imóvel</h1>
   <app-comp-list-items [itemsList]="itemsApto"></app-comp-list-items>
-
-  <a href="#" class="text-primary" routerLink="/itens">Ver todos itens</a>
+  <div class="text-center mt-4">
+    <a href="#" class="text-primary" routerLink="/itens">Ver todos itens</a>
+  </div>
 </div>
 
 <div class="container mt-4 mb-4 pt-4">
