@@ -1,0 +1,27 @@
+<button class="btn btn-grayF btn-sm" (click)="toggleMenu()">
+  <i class="fa fa-bars"></i>
+</button>
+
+<div class="menu bg-light" [ngClass]="{ opened: menuOpened === true }">
+  <div class="d-flex container pt-2 justify-content-between align-items-center">
+    <span class="fs-4">Menu</span>
+    <button class="btn btn-light text-gray6" (click)="toggleMenu()">
+      <i class="fa fa-times"></i>
+    </button>
+  </div>
+  <div class="d-grid gap-2">
+    <button
+      *ngFor="let menu of menuList"
+      class="btn text-start"
+      [ngClass]="
+        menuSelected === menu.route
+          ? 'btn-gray6 text-light'
+          : 'btn-light text-gray6'
+      "
+      (click)="goRote(menu.route)"
+    >
+      <i class="fa" [ngClass]="menu.icon"></i>
+      <span class="ms-2">{{ menu.name }}</span>
+    </button>
+  </div>
+</div>

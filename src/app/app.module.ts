@@ -14,6 +14,7 @@ import { CompLocationComponent } from './components/comp-location/comp-location.
 import { PageItensComponent } from './pages/page-itens/page-itens.component';
 import { CompFotosComponent } from './components/comp-fotos/comp-fotos.component';
 import { CompListItemsComponent } from './components/comp-list-items/comp-list-items.component';
+import { CompMenuComponent } from './components/comp-menu/comp-menu.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { CompListItemsComponent } from './components/comp-list-items/comp-list-i
     CompLocationComponent,
     PageItensComponent,
     CompFotosComponent,
-    CompListItemsComponent
+    CompListItemsComponent,
+    CompMenuComponent
   ],
   imports: [
     BrowserModule,

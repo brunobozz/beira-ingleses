@@ -3,6 +3,7 @@
   position: sticky;
   top: 0;
   z-index: 100;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   &-logo {
     height: 80px;
     cursor: pointer;
@@ -16,7 +17,10 @@
 }
 
 @media only screen and (max-width: 480px) {
-  .comp-header-logo {
-    height: 40px;
+  .comp-header {
+    padding: 10px 0;
+    &-logo {
+      height: 40px;
+    }
   }
 }
