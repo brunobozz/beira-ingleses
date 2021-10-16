@@ -1,0 +1,8 @@
+<div class="container mt-4">
+  <h1 class="page-title">Fotos</h1>
+  <app-comp-fotos
+    *ngFor="let galeria of galerias"
+    [fotosTitle]="galeria.title"
+    [fotosList]="galeria.fotos"
+  ></app-comp-fotos>
+</div>

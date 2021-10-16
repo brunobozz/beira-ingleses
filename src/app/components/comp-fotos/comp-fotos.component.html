@@ -1,1 +1,12 @@
-<p>comp-fotos works!</p>
+<section class="comp-fotos">
+  <h4>{{ fotosTitle }}</h4>
+  <div class="comp-fotos-gallery">
+    <div
+      *ngFor="let item of fotosList"
+      class="comp-fotos-gallery-item"
+      [ngStyle]="{
+        'background-image': 'url(../../../assets/images/fotos/' + item + '.jpg)'
+      }"
+    ></div>
+  </div>
+</section>

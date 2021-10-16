@@ -40,6 +40,21 @@ export class PageHomeComponent implements OnInit {
       text: 'Até 6 pessoas',
     },
   ];
+
+  public fotosPraia: any = [
+    'praia/01',
+    'praia/02',
+    'praia/03',
+    'praia/04',
+    'praia/05',
+    'praia/06',
+    'praia/07',
+    'praia/08',
+    'praia/09',
+    'praia/10',
+    'praia/11',
+    'praia/12',
+  ];
   constructor() {}
 
   ngOnInit(): void {}

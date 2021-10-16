@@ -15,6 +15,7 @@ import { PageItensComponent } from './pages/page-itens/page-itens.component';
 import { CompFotosComponent } from './components/comp-fotos/comp-fotos.component';
 import { CompListItemsComponent } from './components/comp-list-items/comp-list-items.component';
 import { CompMenuComponent } from './components/comp-menu/comp-menu.component';
+import { PageFotosComponent } from './pages/page-fotos/page-fotos.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { CompMenuComponent } from './components/comp-menu/comp-menu.component';
     PageItensComponent,
     CompFotosComponent,
     CompListItemsComponent,
-    CompMenuComponent
+    CompMenuComponent,
+    PageFotosComponent
   ],
   imports: [
     BrowserModule,
