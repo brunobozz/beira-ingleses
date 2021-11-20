@@ -74,7 +74,7 @@ export class PageHomeComponent implements OnInit {
   public week = ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb'];
 
   public colors: any = {
-    daysMonthBgColor: 'rgb(246, 246, 246)',
+    daysMonthBgColor: '#fefc8b',
     daysMonthTxColor: 'rgb(33, 37, 41)',
     noDaysMonthBgColor: '#ffffff',
     noDaysMonthTxColor: '#ffffff',
