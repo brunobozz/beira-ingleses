@@ -16,6 +16,7 @@ import { CompFotosComponent } from './components/comp-fotos/comp-fotos.component
 import { CompListItemsComponent } from './components/comp-list-items/comp-list-items.component';
 import { CompMenuComponent } from './components/comp-menu/comp-menu.component';
 import { PageFotosComponent } from './pages/page-fotos/page-fotos.component';
+import { BozzCalendarModule } from 'bozz-calendar';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { PageFotosComponent } from './pages/page-fotos/page-fotos.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BozzCalendarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

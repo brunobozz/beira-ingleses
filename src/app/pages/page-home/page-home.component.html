@@ -37,6 +37,22 @@
 </div>
 
 <div class="container mt-4 pt-4">
+  <h1 class="page-title">Dias Disponíveis</h1>
+
+  <lib-bozz-calendar
+    [dates]="dates"
+    [months]="months"
+    [week]="week"
+    [colors]="colors"
+  ></lib-bozz-calendar>
+  <div class="d-flex justify-content-center align-items-center mt-3">
+    <span class="badge bg-secondary text-gray6">Disponível</span>
+    <span>&nbsp;</span>
+    <span class="badge bg-primary">Indisponível</span>
+  </div>
+</div>
+
+<div class="container mt-4 pt-4">
   <h1 class="page-title">Itens do Imóvel</h1>
   <app-comp-list-items [itemsList]="itemsApto"></app-comp-list-items>
   <div class="text-center mt-4">
