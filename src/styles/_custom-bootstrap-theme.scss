@@ -20,7 +20,9 @@ $custom-colors: (
   "grayF": $grayF,
   //others
   "airbnb": $airbnb,
-  "whatsapp": $whatsapp
+  "whatsapp": $whatsapp,
+  "disponivel": $disponivel,
+  "indisponivel": $indisponivel
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
