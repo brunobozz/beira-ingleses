@@ -21,11 +21,11 @@ export class CompMenuComponent implements OnInit {
       name: 'Itens',
       icon: 'fa-television',
     },
-    {
-      route: '/fotos',
-      name: 'Fotos',
-      icon: 'fa-camera',
-    },
+    // {
+    //   route: '/fotos',
+    //   name: 'Fotos',
+    //   icon: 'fa-camera',
+    // },
     // {
     //   route: '/regras',
     //   name: 'Regras',
