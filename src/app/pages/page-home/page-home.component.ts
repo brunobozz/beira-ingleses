@@ -194,6 +194,16 @@ export class PageHomeComponent implements OnInit {
       color: '#ffffff',
     },
     {
+      date: new Date(2021, 10, 23),
+      bg: 'rgba(163, 0, 217,0.5)',
+      color: '#ffffff',
+    },
+    {
+      date: new Date(2021, 10, 24),
+      bg: 'rgba(163, 0, 217,0.5)',
+      color: '#ffffff',
+    },
+    {
       date: new Date(2021, 10, 25),
       bg: 'rgba(163, 0, 217,0.5)',
       color: '#ffffff',
@@ -205,6 +215,11 @@ export class PageHomeComponent implements OnInit {
     },
     {
       date: new Date(2021, 10, 27),
+      bg: 'rgba(163, 0, 217,0.5)',
+      color: '#ffffff',
+    },
+    {
+      date: new Date(2021, 10, 28),
       bg: 'rgba(163, 0, 217,0.5)',
       color: '#ffffff',
     },
@@ -316,48 +331,48 @@ export class PageHomeComponent implements OnInit {
     },
     {
       date: new Date(2021, 11, 20),
-      bg: '#fefc8b',
-      color: '#666666',
+      bg: 'rgba(163, 0, 217,0.5)',
+      color: '#ffffff',
     },
     {
       date: new Date(2021, 11, 21),
-      bg: '#fefc8b',
-      color: '#666666',
+      bg: 'rgba(163, 0, 217,0.5)',
+      color: '#ffffff',
     },
     {
       date: new Date(2021, 11, 22),
-      bg: '#fefc8b',
-      color: '#666666',
+      bg: 'rgba(163, 0, 217,0.5)',
+      color: '#ffffff',
     },
     {
       date: new Date(2021, 11, 23),
-      bg: '#fefc8b',
-      color: '#666666',
+      bg: 'rgba(163, 0, 217,0.5)',
+      color: '#ffffff',
     },
     {
       date: new Date(2021, 11, 24),
-      bg: '#fefc8b',
-      color: '#666666',
+      bg: 'rgba(163, 0, 217,0.5)',
+      color: '#ffffff',
     },
     {
       date: new Date(2021, 11, 25),
-      bg: '#fefc8b',
-      color: '#666666',
+      bg: 'rgba(163, 0, 217,0.5)',
+      color: '#ffffff',
     },
     {
       date: new Date(2021, 11, 26),
-      bg: '#fefc8b',
-      color: '#666666',
+      bg: 'rgba(163, 0, 217,0.5)',
+      color: '#ffffff',
     },
     {
       date: new Date(2021, 11, 27),
-      bg: '#fefc8b',
-      color: '#666666',
+      bg: 'rgba(163, 0, 217,0.5)',
+      color: '#ffffff',
     },
     {
       date: new Date(2021, 11, 28),
-      bg: '#fefc8b',
-      color: '#666666',
+      bg: 'rgba(163, 0, 217,0.5)',
+      color: '#ffffff',
     },
     {
       date: new Date(2021, 11, 29),
@@ -533,38 +548,38 @@ export class PageHomeComponent implements OnInit {
     //========================================== 2022 fevereiro
     {
       date: new Date(2022, 1, 1),
-      bg: '#fefc8b',
-      color: '#666666',
+      bg: 'rgba(163, 0, 217,0.5)',
+      color: '#ffffff',
     },
     {
       date: new Date(2022, 1, 2),
-      bg: '#fefc8b',
-      color: '#666666',
+      bg: 'rgba(163, 0, 217,0.5)',
+      color: '#ffffff',
     },
     {
       date: new Date(2022, 1, 3),
-      bg: '#fefc8b',
-      color: '#666666',
+      bg: 'rgba(163, 0, 217,0.5)',
+      color: '#ffffff',
     },
     {
       date: new Date(2022, 1, 4),
-      bg: '#fefc8b',
-      color: '#666666',
+      bg: 'rgba(163, 0, 217,0.5)',
+      color: '#ffffff',
     },
     {
       date: new Date(2022, 1, 5),
-      bg: '#fefc8b',
-      color: '#666666',
+      bg: 'rgba(163, 0, 217,0.5)',
+      color: '#ffffff',
     },
     {
       date: new Date(2022, 1, 6),
-      bg: '#fefc8b',
-      color: '#666666',
+      bg: 'rgba(163, 0, 217,0.5)',
+      color: '#ffffff',
     },
     {
       date: new Date(2022, 1, 7),
-      bg: '#fefc8b',
-      color: '#666666',
+      bg: 'rgba(163, 0, 217,0.5)',
+      color: '#ffffff',
     },
     {
       date: new Date(2022, 1, 8),
@@ -978,7 +993,6 @@ export class PageHomeComponent implements OnInit {
       bg: '#fefc8b',
       color: '#666666',
     },
-    
   ];
 
   constructor() {}
